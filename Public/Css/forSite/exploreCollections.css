@@ -1,0 +1,242 @@
+:root{
+  --color-whiteF: #FFF;
+  --color-black: #000;
+  --color-time-chu_nho: #666666;
+  --color-information_information: rgba(217, 217, 217, 0.64);
+  --color-right_duythai: #BBBBBB;
+  --color-menu_ul_duythai: #CBC4C4;
+  --color-PIN_duythai: #C5C5C5;
+  --color-chu_duythai: #3E3E3E;
+  
+  --color-bg-input: #F4F4F4;
+  --btn-white: white;
+  --color-search-input: #999999;
+  --cacloaiboder-radius-trung: 12px;
+  --font-style: normal;
+  --font-weight: 500;
+  --line-height: normal;
+  --background-boder: rgba(153, 153, 153, 0.66);
+  --text-red: red;
+  --text-green: green;
+  --cacloaiboder-radius-bordermini: 8px;
+  --cacloaiboder-radius-lon: 20px;
+  --bg-xam-btn: #D9D9D9;
+  --color-new: #333333;
+  --color-span: #F6F6F6;
+  --background-color-spnan: #5E17EB;
+}
+
+#explore_page{
+  padding-top: 100px;
+}
+
+.container_duythai{
+ padding-left: 39px; padding-right: 39px;
+}
+.menu_ul_duythai{
+  width: 100%;
+  margin-bottom: 20px;
+ }
+
+ .menu_duythai li {
+  margin-right: 27px;
+}
+
+ .menu_duythai ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+ }
+ .menu_duythai li a:hover {
+  color: var(--color-black);
+  transition: all .3s;
+ }
+ .menu_duythai .menu-li_duythai a{
+   color: var(--color-time-chu_nho);
+   text-decoration: none;
+   font-size: 24px;
+   font-style: var(--font-style);
+   font-weight: var(--font-weight);
+   line-height: var(--line-height);
+   display: block;
+ }
+ /*========================SEARCH================*/
+
+ .search_duythai {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search_input_duythai {
+  position: relative;
+  flex: 1;
+  padding: 2px 25px;
+  border: 1px solid var(--color-bg-input);
+  border-radius: 10px;
+  background: var(--color-bg-input);
+}
+
+.search_input_duythai input[type="search"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.search_input_duythai input[type="search"]::placeholder {
+  color: var(--color-search-input);
+  font-size: 15px;
+  font-weight: 400;
+  font-style: var(--font-style);
+  line-height: var(--line-height);
+}
+.search_input_duythai i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-time-chu_nho);
+  font-size: 18px;
+}
+/*========================THE END================*/
+ /* ======================================= START TRENDING COLLECTIONS ========================================= */
+ .taphop-time-btn-filter{
+  padding: 2px;
+  background-color: var(--color-bg-input);
+  width: max-content;
+  border-radius: var(--cacloaiboder-radius-trung);
+}
+
+.time-btn-filter-at-trending-collections-at-page-home{
+  padding: 10px 20px;
+  border-radius: var(--cacloaiboder-radius-trung);
+  color: var(--color-time-chu_nho);
+}
+
+.supper-parent-box-input-check-floor-price{
+  margin-bottom: 40px;
+  
+}
+
+.parent-box-input-check-floor-price{
+  column-gap: 20px;
+}
+
+.box-input-check-floor-price input{
+  padding: 10px 15px;
+  border-radius: var(--cacloaiboder-radius-trung);
+  border: none;
+  outline: none;
+  max-width: 50px;
+  min-height: auto;
+  background-color: var(--color-bg-input);
+}
+
+.box-input-bg-color-white{
+  background-color: var(--btn-white);
+  color: var(--color-black);
+}
+
+.box-input-check-floor-price{
+  column-gap: 10px;
+}
+/*========================THE END================*/
+.new-collections-page-home{
+  padding: 20px 1px;
+  border-radius: var(--cacloaiboder-radius-trung);
+  border: 1px solid var(--background-boder);
+}
+/* ====================RANK =================== */
+
+
+.bangxephang-at-trending-collections-page-home{
+  padding-left: 10px;
+  margin-bottom: 20px;
+  /* margin-left: 15px;
+  margin-right: 15px; */ 
+  margin-top: 20px;
+}
+
+a.bangxephang-at-trending-collections-page-home{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-rank-at-trending-collections-page-home{
+  min-width: 32px;
+  flex-grow: 1;
+}
+
+.dauthang-rank{
+  padding: 3px 6px;
+  width: max-content;
+  flex-grow: 1;
+}
+
+.all-collections-rank-trending-at-page-home{
+  margin-bottom: 45px;
+}
+
+.img-avt-collections-at-rank-table{
+  height: 40px;
+  width: 40px;
+  border-radius: var(--cacloaiboder-radius-bordermini);
+  overflow: hidden;
+  margin-right: 16px;
+}
+
+.img-avt-collections-at-rank-table .img-avt-collections-at-rank-table-main{
+  height: 100%;
+  width: 100%;
+}
+
+.name-collections-at-rank-table{
+  font-weight: 400;
+  color: var(--color-black);
+  font-size: 18px;
+  font-style: var(--font-style);
+  line-height: var(--line-height);
+}
+
+.row-rank-collections{
+  height: 80px;
+  border-radius: 10px;
+}
+
+.row-rank-collections:hover{
+  background-color: var(--bg-xam-btn);
+}
+
+.col-selled-at-trending-collections-page-home{
+  min-width: 200px;
+}
+/*========================THE END================*/
+
+.span_duythai{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color-spnan);
+  border: 1px solid var(--background-color-spnan);
+  width: 186px;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+.span_duythai a{
+  color: var(--color-span);
+  font-size: 20px;
+  font-weight: 600;
+  font-style: var(--font-style);
+  line-height: var(--line-height);
+}
+
+.margin-top-bot-0px{
+  margin-top: 0px; margin-bottom: 0px;
+}

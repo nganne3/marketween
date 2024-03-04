@@ -1,0 +1,12 @@
+
+@media (max-width: 430px){
+  
+    .search_reponsive2_duythai{
+        width: 14.875rem;
+        height: 2.5rem;
+        flex-shrink: 0;
+    }
+    .width_responsive_duythai2{
+        width: 408px;
+    }
+}

@@ -1,0 +1,41 @@
+:root{
+    --width-collections: 261px;
+    --height-collections: 393px;
+}
+
+#drops-page{
+    padding-top: 82px;
+    padding-left: 39px;
+    padding-right: 39px;
+}
+
+.drops-all-collections{
+    margin-bottom: 100px;
+}
+
+.drops-page .new-collections-vantan{
+    height: 384px;
+    margin-bottom: 8px;
+}
+
+.drops-page .central-of-new-collections-vantan{
+    width: var(--width-collections);
+    padding: 8px;
+    height: var(--height-collections);
+    border: 1px solid var(--bg-xam-btn);
+    border-radius: var(--cacloaiboder-radius-trung);
+    transition: all 0.2s ease;
+}
+
+.drops-page .new-collections-vantan-form-img {
+    width: var(--width-collections);
+    height: var(--width-collections);
+    border-radius: var(--cacloaiboder-radius-trung);
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.drops-page .container-new-collections-demo{
+    row-gap: 80px;
+    margin-bottom: 80px;
+}

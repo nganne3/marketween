@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketween</title>
+
+    
+    <link rel="shortcut icon" href="images/Group 230 (1).png" type="image/x-icon">
+    <!-- =========================FAVICON============================ -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- =========================BOX ICON============================ -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- =========================GOOGLE FONT============================ -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="drops.css">
+    <!-- =========================CSS============================ -->
+
+</head>
+
+<body id="body">
+
+<!-- ====================================================START HEADER========================================================== -->
+<div id="header">
+    <div id="container-header">
+        <div id="logo-header">
+            <div id="logo">
+                <img id="logo-image" src="https://i.pinimg.com/originals/fb/54/84/fb54849f358f7825923f7d0517f3678f.png" alt="">
+            </div>
+            <div id="text-brand">
+                Marketween
+            </div>
+        </div>
+        <div id="search-at-header">
+            <input id="barsearch-input" type="text" placeholder="Tìm kiếm tên bộ sưu tập, sản phẩm, người dùng">
+            <div id="gachcheo-input-barsearch">
+                /
+            </div>
+        </div>
+        <div id="bar-all-click-to-page">
+            <div id="create-at-header" class="create-at-header">
+                <div id="create-text-at-header" class="position-relactive">
+                    <a href="" class="hover-yet-or-not">Tạo</a>
+                </div>
+                <div class="position-fixed height-hover-create padding-top-20px" id="hover-menu-create">
+
+                    <div class="background-white padding-15px border-radius-12px width-200px show-menu-create menu-xo-at-header" >
+                        <a class="display-flex align-items-center colmn-gap-20px padding-15px border-radius-12px hover-menu-create">
+                            <i class='bx bxs-box'></i>
+                            <div>Sản phẩm</div>
+                        </a>
+                        <a class="display-flex align-items-center colmn-gap-20px padding-15px border-radius-12px hover-menu-create">
+                            <i class='bx bxs-layer'></i>
+                            <div>Bộ sưu tập</div>
+                        </a>
+                    </div>  
+
+                </div> 
+            </div>
+            <div id="explore-at-header">
+                <div id="explore-text-at-header">
+                    <a href="" class="hover-yet-or-not">Khám phá</a>
+                </div>
+                <div class="position-fixed height-hover-create padding-top-20px" id="hover-menu-explore">
+
+                    <div class="background-white padding-15px border-radius-12px width-200px show-menu-create menu-xo-at-header" >
+                        <a class="display-flex align-items-center colmn-gap-20px padding-15px border-radius-12px hover-menu-create">
+                            <i class='bx bxs-box'></i>
+                            <div>Sản phẩm</div>
+                        </a>
+                        <a class="display-flex align-items-center colmn-gap-20px padding-15px border-radius-12px hover-menu-create">
+                            <i class='bx bxs-layer'></i>
+                            <div>Bộ sưu tập</div>
+                        </a>
+                        <a class="display-flex align-items-center colmn-gap-20px padding-15px border-radius-12px hover-menu-create">
+                            <i class='bx bxs-user-circle'></i>
+                            <div>Người dùng</div>
+                        </a>
+                    </div>  
+
+                </div> 
+            </div>
+            <div id="sell-at-header">
+                <div id="sell-text-at-header">
+                    <a href="" class="hover-yet-or-not">Bán</a>
+                </div>
+            </div>
+            <div id="collections-at-header">
+                <div id="newcollection-text-at-header">
+                    <a href="" class="hover-yet-or-not">Bộ sưu tập mới</a>
+                </div>
+            </div>
+        </div>
+        <div id="login-and-bag-of-header">
+            <div id="login-at-header">
+                <div id="text-login-button">
+                    <a href="" class="text-white">Đăng nhập</a>
+                </div>
+            </div>
+            <div id="userlogined-at-header" class="userlogined-at-header">
+                <div class="overflow-hidden height-width-userlogined-at-header border-radius-50phantram">
+                    <img class="width-100-height-100" src="https://i.pinimg.com/originals/8c/19/e1/8c19e12a4aac21d81e98a4160b236ce7.png" alt="">
+                </div>
+            </div>
+            <div id="noti-at-header">
+                <i class='bx bxs-bell'></i>
+            </div>
+            <div id="bag-at-header">
+                <i class='bx bxs-shopping-bag'></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------SHOPPING CART---------------------------- -->
+<div id="shopping-cart" class="border-radius-12px position-fixed z-index-9 width-max-content height-max-content margin-16-24">
+
+    <div class="container-3tang display-flex align-items-center padding-16px justify-content-space-between">
+        <div class="display-flex align-items-center">
+            <div class="font-size-22px margin-right-10px">Sản phẩm</div>
+            <div class="background-color-red text-white height-max-content font-size-10px padding-for-number-shopping-cart border-radius-3px">7</div>
+        </div>
+        <div class="display-flex align-items-center">
+            <div class="text-not-yet-hover font-size-13px margin-right-10px">Xóa tất cả</div>
+            <i id="close-shopping-cart" class='bx bx-x height-width-40px display-flex align-items-center justify-content-center background-color-hover-xam border-radius-12px font-size-22px'></i>
+        </div>
+    </div>
+
+    <div id="container-all-product-at-cart" class="container-3tang padding-16px height-440px overflow-hidden overflow-y-scroll-auto css-for-scroll-of-shoppingcart">
+
+        <div class="margin-bot-20px display-flex align-items-center justify-content-space-between hide-cart-from-parent-product product-at-shoppingcart">
+            <div class="display-flex align-items-center margin-right-10px">
+                <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px">
+                    <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                </div>
+                <div class="width-for-in4-product-at-shoppingcart"> 
+                    <div class="font-size-18px font-weight-600 hide-text-after-3cham">
+                        Sengaku #2020
+                    </div>
+                    <div class="display-flex align-items-center width-100phantram">
+                        <div class="display-flex align-items-center margin-right-20px width-50phantram">
+                            <span>Bởi</span>
+                            &nbsp;
+                            <a class="hide-text-after-3cham width-100phantram">JohanasdadwsadaJs</a>
+                        </div>
+                        <div class="font-size-10px padding-5px-10px background-color-input border-radius-8px width-50phantram">
+                            Âm nhạc
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="width-100phantram">
+                <div class="display-flex align-items-center width-100phantram flex-end price-at-shoppingcart">
+                    <span>14</span>
+                    &nbsp;
+                    <span>coins</span>
+                </div>
+                <div class="width-100phantram display-flex align-items-center flex-end trash-at-shoppingcart">
+                    <i class='bx bxs-trash-alt font-size-22px height-width-40px display-flex align-items-center justify-content-center background-color-hover-xam border-radius-12px'></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------- -->
+
+        <div class="margin-bot-20px display-flex align-items-center justify-content-space-between hide-cart-from-parent-product product-at-shoppingcart">
+            <div class="display-flex align-items-center margin-right-10px">
+                <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px">
+                    <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                </div>
+                <div class="width-for-in4-product-at-shoppingcart"> 
+                    <div class="font-size-18px font-weight-600 hide-text-after-3cham">
+                        Sengaku #2020
+                    </div>
+                    <div class="display-flex align-items-center width-100phantram">
+                        <div class="display-flex align-items-center margin-right-20px width-50phantram">
+                            <span>Bởi</span>
+                            &nbsp;
+                            <a class="hide-text-after-3cham width-100phantram">JohanasdadwsadaJs</a>
+                        </div>
+                        <div class="font-size-10px padding-5px-10px background-color-input border-radius-8px width-50phantram">
+                            Âm nhạc
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="width-100phantram">
+                <div class="display-flex align-items-center width-100phantram flex-end price-at-shoppingcart">
+                    <span>14</span>
+                    &nbsp;
+                    <span>coins</span>
+                </div>
+                <div class="width-100phantram display-flex align-items-center flex-end trash-at-shoppingcart">
+                    <i class='bx bxs-trash-alt font-size-22px height-width-40px display-flex align-items-center justify-content-center background-color-hover-xam border-radius-12px'></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------- -->
+
+        <div class="margin-bot-20px display-flex align-items-center justify-content-space-between hide-cart-from-parent-product product-at-shoppingcart">
+            <div class="display-flex align-items-center margin-right-10px">
+                <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px">
+                    <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                </div>
+                <div class="width-for-in4-product-at-shoppingcart"> 
+                    <div class="font-size-18px font-weight-600 hide-text-after-3cham">
+                        Sengaku #2020
+                    </div>
+                    <div class="display-flex align-items-center width-100phantram">
+                        <div class="display-flex align-items-center margin-right-20px width-50phantram">
+                            <span>Bởi</span>
+                            &nbsp;
+                            <a class="hide-text-after-3cham width-100phantram">JohanasdadwsadaJs</a>
+                        </div>
+                        <div class="font-size-10px padding-5px-10px background-color-input border-radius-8px width-50phantram">
+                            Âm nhạc
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="width-100phantram">
+                <div class="display-flex align-items-center width-100phantram flex-end price-at-shoppingcart">
+                    <span>14</span>
+                    &nbsp;
+                    <span>coins</span>
+                </div>
+                <div class="width-100phantram display-flex align-items-center flex-end trash-at-shoppingcart">
+                    <i class='bx bxs-trash-alt font-size-22px height-width-40px display-flex align-items-center justify-content-center background-color-hover-xam border-radius-12px'></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------- -->
+
+        <div class="margin-bot-20px display-flex align-items-center justify-content-space-between hide-cart-from-parent-product product-at-shoppingcart">
+            <div class="display-flex align-items-center margin-right-10px">
+                <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px">
+                    <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                </div>
+                <div class="width-for-in4-product-at-shoppingcart"> 
+                    <div class="font-size-18px font-weight-600 hide-text-after-3cham">
+                        Sengaku #2020
+                    </div>
+                    <div class="display-flex align-items-center width-100phantram">
+                        <div class="display-flex align-items-center margin-right-20px width-50phantram">
+                            <span>Bởi</span>
+                            &nbsp;
+                            <a class="hide-text-after-3cham width-100phantram">JohanasdadwsadaJs</a>
+                        </div>
+                        <div class="font-size-10px padding-5px-10px background-color-input border-radius-8px width-50phantram">
+                            Âm nhạc
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="width-100phantram">
+                <div class="display-flex align-items-center width-100phantram flex-end price-at-shoppingcart">
+                    <span>14</span>
+                    &nbsp;
+                    <span>coins</span>
+                </div>
+                <div class="width-100phantram display-flex align-items-center flex-end trash-at-shoppingcart">
+                    <i class='bx bxs-trash-alt font-size-22px height-width-40px display-flex align-items-center justify-content-center background-color-hover-xam border-radius-12px'></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------- -->
+
+        <div class="margin-bot-20px display-flex align-items-center justify-content-space-between hide-cart-from-parent-product product-at-shoppingcart">
+            <div class="display-flex align-items-center margin-right-10px">
+                <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px">
+                    <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                </div>
+                <div class="width-for-in4-product-at-shoppingcart"> 
+                    <div class="font-size-18px font-weight-600 hide-text-after-3cham">
+                        Sengaku #2020
+                    </div>
+                    <div class="display-flex align-items-center width-100phantram">
+                        <div class="display-flex align-items-center margin-right-20px width-50phantram">
+                            <span>Bởi</span>
+                            &nbsp;
+                            <a class="hide-text-after-3cham width-100phantram">JohanasdadwsadaJs</a>
+                        </div>
+                        <div class="font-size-10px padding-5px-10px background-color-input border-radius-8px width-50phantram">
+                            Âm nhạc
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="width-100phantram">
+                <div class="display-flex align-items-center width-100phantram flex-end price-at-shoppingcart">
+                    <span>14</span>
+                    &nbsp;
+                    <span>coins</span>
+                </div>
+                <div class="width-100phantram display-flex align-items-center flex-end trash-at-shoppingcart">
+                    <i class='bx bxs-trash-alt font-size-22px height-width-40px display-flex align-items-center justify-content-center background-color-hover-xam border-radius-12px'></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------- -->
+
+        <div class="margin-bot-20px display-flex align-items-center justify-content-space-between hide-cart-from-parent-product product-at-shoppingcart">
+            <div class="display-flex align-items-center margin-right-10px">
+                <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px">
+                    <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                </div>
+                <div class="width-for-in4-product-at-shoppingcart"> 
+                    <div class="font-size-18px font-weight-600 hide-text-after-3cham">
+                        Sengaku #2020
+                    </div>
+                    <div class="display-flex align-items-center width-100phantram">
+                        <div class="display-flex align-items-center margin-right-20px width-50phantram">
+                            <span>Bởi</span>
+                            &nbsp;
+                            <a class="hide-text-after-3cham width-100phantram">JohanasdadwsadaJs</a>
+                        </div>
+                        <div class="font-size-10px padding-5px-10px background-color-input border-radius-8px width-50phantram">
+                            Âm nhạc
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="width-100phantram">
+                <div class="display-flex align-items-center width-100phantram flex-end price-at-shoppingcart">
+                    <span>14</span>
+                    &nbsp;
+                    <span>coins</span>
+                </div>
+                <div class="width-100phantram display-flex align-items-center flex-end trash-at-shoppingcart">
+                    <i class='bx bxs-trash-alt font-size-22px height-width-40px display-flex align-items-center justify-content-center background-color-hover-xam border-radius-12px'></i>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------- -->
+
+    </div>
+
+    <div class="container-3tang padding-16px">
+        <button class="btn-destroy background-color-brand width-100phantram border-radius-12px font-size-16px padding-15px-18px font-weight-600 display-flex align-items-center justify-content-center text-white">
+            <span>Mua với</span>
+            &nbsp;
+            <span>14</span>
+            &nbsp;
+            <span>coins</span>
+        </button>
+    </div>
+
+</div>
+<!-- --------------------SHOPPING CART---------------------------- -->
+<!-- --------------------NOTIFICATIONS---------------------------- -->
+<div id="notifications" class="border-radius-12px overflow-hidden position-fixed z-index-9 height-max-content margin-16-24">
+
+    <div class="container-3tang display-flex align-items-center padding-16px justify-content-space-between">
+        <div class="display-flex align-items-center">
+            <div class="font-size-22px margin-right-10px">Thông báo</div>
+        </div>
+        <div class="display-flex align-items-center">
+            <i id="close-notifications" class='bx bx-x height-width-40px display-flex align-items-center justify-content-center background-color-hover-xam border-radius-12px font-size-22px'></i>
+        </div>
+    </div>
+
+    <div id="container-all-notifications" class="container-3tang padding-16px height-440px overflow-y-scroll-auto css-for-scroll-of-shoppingcart">
+
+        <a class="display-flex align-items-center background-color-hover-xam noti-at-table-of-header margin-bot-10px border-radius-12px" href="">
+            <div class="hide-cart-from-parent-product product-at-shoppingcart">
+                <div class="display-flex align-items-center">
+                    <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px avt-img-notifications">
+                        <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                    </div>
+                    <div class="width-100phantram"> 
+                        <p class="font-size-16px" >
+                            <strong>Johan</strong> Đã thêm sản phẩm mới
+                        </p>
+                        <div class="display-flex align-items-center margin-right-20px">
+                            <span class="date-time-noti">Bây giờ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- --------------------------------------- -->
+
+        <a class="display-flex align-items-center background-color-hover-xam noti-at-table-of-header margin-bot-10px border-radius-12px" href="">
+            <div class="hide-cart-from-parent-product product-at-shoppingcart">
+                <div class="display-flex align-items-center">
+                    <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px avt-img-notifications">
+                        <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                    </div>
+                    <div class="width-100phantram"> 
+                        <p class="font-size-16px" >
+                            <strong>Johan</strong> Đã thêm sản phẩm mới
+                        </p>
+                        <div class="display-flex align-items-center margin-right-20px">
+                            <span class="date-time-noti">Bây giờ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- --------------------------------------- -->
+
+        <a class="display-flex align-items-center background-color-hover-xam noti-at-table-of-header margin-bot-10px border-radius-12px" href="">
+            <div class="hide-cart-from-parent-product product-at-shoppingcart">
+                <div class="display-flex align-items-center">
+                    <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px avt-img-notifications">
+                        <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                    </div>
+                    <div class="width-100phantram"> 
+                        <p class="font-size-16px" >
+                            <strong>Johan</strong> Đã thêm sản phẩm mới
+                        </p>
+                        <div class="display-flex align-items-center margin-right-20px">
+                            <span class="date-time-noti">Bây giờ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- --------------------------------------- -->
+
+        <a class="display-flex align-items-center background-color-hover-xam noti-at-table-of-header margin-bot-10px border-radius-12px" href="">
+            <div class="hide-cart-from-parent-product product-at-shoppingcart">
+                <div class="display-flex align-items-center">
+                    <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px avt-img-notifications">
+                        <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                    </div>
+                    <div class="width-100phantram"> 
+                        <p class="font-size-16px" >
+                            <strong>Johan</strong> Đã thêm sản phẩm mới
+                        </p>
+                        <div class="display-flex align-items-center margin-right-20px">
+                            <span class="date-time-noti">Bây giờ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- --------------------------------------- -->
+
+        <a class="display-flex align-items-center background-color-hover-xam noti-at-table-of-header margin-bot-10px border-radius-12px" href="">
+            <div class="hide-cart-from-parent-product product-at-shoppingcart">
+                <div class="display-flex align-items-center">
+                    <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px avt-img-notifications">
+                        <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                    </div>
+                    <div class="width-100phantram"> 
+                        <p class="font-size-16px" >
+                            <strong>Johan</strong> Đã thêm sản phẩm mới
+                        </p>
+                        <div class="display-flex align-items-center margin-right-20px">
+                            <span class="date-time-noti">Bây giờ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- --------------------------------------- -->
+
+        <a class="display-flex align-items-center background-color-hover-xam noti-at-table-of-header margin-bot-10px border-radius-12px" href="">
+            <div class="hide-cart-from-parent-product product-at-shoppingcart">
+                <div class="display-flex align-items-center">
+                    <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px avt-img-notifications">
+                        <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                    </div>
+                    <div class="width-100phantram"> 
+                        <p class="font-size-16px" >
+                            <strong>Johan</strong> Đã thêm sản phẩm mới
+                        </p>
+                        <div class="display-flex align-items-center margin-right-20px">
+                            <span class="date-time-noti">Bây giờ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- --------------------------------------- -->
+
+        <a class="display-flex align-items-center background-color-hover-xam noti-at-table-of-header margin-bot-10px border-radius-12px" href="">
+            <div class="hide-cart-from-parent-product product-at-shoppingcart">
+                <div class="display-flex align-items-center">
+                    <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px avt-img-notifications">
+                        <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                    </div>
+                    <div class="width-100phantram"> 
+                        <p class="font-size-16px" >
+                            <strong>Johan</strong> Đã thêm sản phẩm mới
+                        </p>
+                        <div class="display-flex align-items-center margin-right-20px">
+                            <span class="date-time-noti">Bây giờ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- --------------------------------------- -->
+
+        <a class="display-flex align-items-center background-color-hover-xam noti-at-table-of-header margin-bot-10px border-radius-12px" href="">
+            <div class="hide-cart-from-parent-product product-at-shoppingcart">
+                <div class="display-flex align-items-center">
+                    <div class="overflow-hidden height-width-56px border-radius-12px margin-right-20px avt-img-notifications">
+                        <img class="width-100-height-100" src="https://i.pinimg.com/originals/1f/76/b6/1f76b6843381436a6567da7dd06337e6.jpg" alt="">
+                    </div>
+                    <div class="width-100phantram"> 
+                        <p class="font-size-16px" >
+                            <strong>Johan</strong> Đã thêm sản phẩm mới
+                        </p>
+                        <div class="display-flex align-items-center margin-right-20px">
+                            <span class="date-time-noti">Bây giờ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- --------------------------------------- -->
+    </div>
+
+</div>
+<!-- --------------------NOTIFICATIONS---------------------------- -->
+<!-- --------------------MENU USER---------------------------- -->
+<div id="menu-user" class="border-radius-12px overflow-hidden height-max-content margin-16-24 position-fixed z-index-9">
+    <div class="container-3tang display-flex align-items-center padding-16px justify-content-space-between">
+        <div class="display-flex align-items-center">
+            <div class="overflow-hidden border-radius-50phantram avt-user-menu-Marketween margin-right-10px">
+                <img class="width-100-height-100" src="https://i.pinimg.com/originals/8c/19/e1/8c19e12a4aac21d81e98a4160b236ce7.png" alt="">
+            </div>
+            <div>
+                <div class="font-size-22px">
+                    JohanJs
+                </div>
+                <div class="font-size-13px color-text-xam">
+                    Khách hàng
+                </div>
+            </div>
+        </div>
+        <div class="display-flex align-items-center">
+            <i id="close-menu-user" class='bx bx-x height-width-40px display-flex align-items-center justify-content-center background-color-hover-xam border-radius-12px font-size-22px'></i>
+        </div>
+    </div>
+    <div class="container-3tang padding-16px height-440px overflow-y-scroll-auto css-for-scroll-of-shoppingcart">
+        <a class="not-hover-at-menu cusor-pointer display-block font-size-28px font-weight-500" >
+            Đi đến trang cá nhân
+        </a>
+        <a class="not-hover-at-menu cusor-pointer display-block font-size-28px font-weight-500">
+            Đi đến trang quản trị
+        </a>
+        <a class="not-hover-at-menu cusor-pointer display-block font-size-28px font-weight-500" >
+            Sản phẩm của tôi
+        </a>
+        <a class="not-hover-at-menu cusor-pointer display-block font-size-28px font-weight-500" >
+            Bộ sưu tập của tôi
+        </a>
+        <a class="not-hover-at-menu cusor-pointer display-block font-size-28px font-weight-500" >
+            Lịch sử bán
+        </a>
+        <a class="not-hover-at-menu cusor-pointer display-block font-size-28px font-weight-500" >
+            Bán
+        </a>
+        <a class="not-hover-at-menu cusor-pointer display-block font-size-28px font-weight-500" >
+            Cài đặt tài khoản
+        </a>
+        <a class="not-hover-at-menu cusor-pointer display-block font-size-28px font-weight-500" >
+            Đăng xuất
+        </a>
+    </div>
+</div>
+<!-- --------------------MENU USER---------------------------- -->
+
+<!-- ====================================================END HEADER========================================================== -->
+
+<!-- --------------------BACKDOOR---------------------------- -->
+<div id="backdoor-marketween">
+
+</div>
+<!-- --------------------BACKDOOR---------------------------- -->
+
+<div id="drops-page">
+<!-- ====================================================START BANNER========================================================== -->
+    <div id="banner-page-home">
+        <div class="position-relactive">
+            <button class="btn-banner-scroll" id="btn-banner-scroll-left">
+                <i class='bx bx-chevron-left'></i>
+            </button>
+            <button class="btn-banner-scroll" id="btn-banner-scroll-right">
+                <i class='bx bx-chevron-right'></i>
+            </button>
+            <div class="banner-page-home-noituyen">
+                <div class="width-full transition-all-2s-linear">
+                    <div class="display-flex banner-central">
+                        <div id="img-banner-featured-of-collections">
+                            <img id="img-banner" src="https://i.pinimg.com/originals/cb/ad/4c/cbad4cd33d56dafe93080230a5aee065.jpg" alt="">
+                        </div>
+                        <div id="content-of-banner">
+                            <h1>
+                                R is for Royalties
+                            </h1>
+                            <div id="by-and-avt-at-banner" class="display-flex">
+                                <div class="by">
+                                    Bởi
+                                </div>
+                                <a id="owner-collections-at-banner__text__avt" class="display-flex">
+                                    <div id="owner-collections-at-banner">
+                                        <img id="avt-at-banner" src="https://i.pinimg.com/originals/ec/46/93/ec4693412421fde3fb59363474b53f20.png" alt="">
+                                    </div>
+                                    <div>
+                                        Rarible Contract Player
+                                    </div>
+                                </a>
+                            </div>
+                            <p id="description-at-banner">
+                                #StandForRoyalties & pledge your support for the people who have made Web3 what it is today. No Speculation. No Utility. Just solidarity. 
+                            </p>
+                            <a href="">
+                                <button id="explore-btn-at-banner">
+                                    Khám Phá
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- --------------------------------------------- -->
+                <div class="width-full transition-all-2s-linear">
+                    <div class="display-flex banner-central" style="background-color: yellow;">
+                        <div id="img-banner-featured-of-collections">
+                            <img id="img-banner" src="https://i.pinimg.com/originals/55/d7/7f/55d77fd9bbe2ea76abe0080c6a31a0e2.png" alt="">
+                        </div>
+                        <div id="content-of-banner">
+                            <h1>
+                                R is for Royalties
+                            </h1>
+                            <div id="by-and-avt-at-banner" class="display-flex">
+                                <div class="by">
+                                    Bởi
+                                </div>
+                                <a id="owner-collections-at-banner__text__avt" class="display-flex">
+                                    <div id="owner-collections-at-banner">
+                                        <img id="avt-at-banner" src="https://i.pinimg.com/originals/ec/46/93/ec4693412421fde3fb59363474b53f20.png" alt="">
+                                    </div>
+                                    <div>
+                                        Rarible Contract Player
+                                    </div>
+                                </a>
+                            </div>
+                            <p id="description-at-banner">
+                                #StandForRoyalties & pledge your support for the people who have made Web3 what it is today. No Speculation. No Utility. Just solidarity. 
+                            </p>
+                            <a href="">
+                                <button id="explore-btn-at-banner">
+                                    Khám Phá
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- --------------------------------------------- -->
+                <div class="width-full transition-all-2s-linear">
+                    <div class="display-flex banner-central" style="background-color: blue;">
+                        <div id="img-banner-featured-of-collections">
+                            <img id="img-banner" src="https://i.pinimg.com/originals/b1/a9/ff/b1a9fffd894f28101aec68ed90926443.jpg" alt="">
+                        </div>
+                        <div id="content-of-banner">
+                            <h1>
+                                R is for Royalties
+                            </h1>
+                            <div id="by-and-avt-at-banner" class="display-flex">
+                                <div class="by">
+                                    Bởi
+                                </div>
+                                <a id="owner-collections-at-banner__text__avt" class="display-flex">
+                                    <div id="owner-collections-at-banner">
+                                        <img id="avt-at-banner" src="https://i.pinimg.com/originals/ec/46/93/ec4693412421fde3fb59363474b53f20.png" alt="">
+                                    </div>
+                                    <div>
+                                        Rarible Contract Player
+                                    </div>
+                                </a>
+                            </div>
+                            <p id="description-at-banner">
+                                #StandForRoyalties & pledge your support for the people who have made Web3 what it is today. No Speculation. No Utility. Just solidarity. 
+                            </p>
+                            <a href="">
+                                <button id="explore-btn-at-banner">
+                                    Khám Phá
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="time-banner" class="display-flex align-items-center justify-content-center">
+            <button class="pause-or-continous" id="run-banner">
+                <i class='bx bx-pause' id="runokaybn"></i>
+            </button>
+            <div class="display-flex align-items-center colmn-at-time-banner">
+                <button class="btn-destroy">
+                    <div class="bar-time-at-banner" >
+                        <div class="bar-time-at-banner-black" id="johandepzaivl">
+                        </div>
+                    </div>
+                </button>
+                <button class="btn-destroy">
+                    <div class="bar-time-at-banner">
+                        <div class="bar-time-at-banner-black">
+                        </div>
+                    </div>
+                </button>
+                <button class="btn-destroy">
+                    <div class="bar-time-at-banner">
+                        <div class="bar-time-at-banner-black">
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+<!-- ====================================================START NEW COLLECTIONS============================================================ -->
+    <div class="drops-all-collections margin-sections-at-home-page">
+        
+        <div class="drops-page container-new-collections-demo display-flex justify-content-space-between flex-wrap-wrap height-max-content">
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+
+            <div class="drops-page new-collections-vantan">
+                <div class="drops-page central-of-new-collections-vantan">
+                    <div class="drops-page new-collections-vantan-form-img">
+                        <img class="new-collections-demo-img" src="https://i.pinimg.com/originals/91/41/96/91419602c7645571211edf2ff9e140fe.jpg" alt="">
+                    </div>
+                    <div class="by-owner-and-name-at-new-collection">
+                        <div class="by-owner-at-new-collection"><a href="">by JohanJs</a></div>
+                        <div class="name-at-new-collection"><span>Drink up Baby</span></div>
+                    </div>
+                    <div class="start-time-and-price-at-new-collection display-flex align-items-center justify-content-space-between">
+                        <div>
+                            <div class="color-text-xam">Bắt đầu</div>
+                            <div>2 ngày trước</div>
+                        </div>
+                        <div>
+                            <div class="color-text-xam">Giá sàn</div>
+                            <div>13 coins</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------- -->
+        </div>
+
+    </div>
+<!-- ====================================================END NEW COLLECTIONS============================================================ -->
+
+</div>
+<!-- ====================================================START FOOTER========================================================== -->
+
+<div id="footer">
+    <div class="display-flex justify-content-space-between margin-bottom-10px border-hr height-max-content padding-bot-48px align-items-flex-start">
+        <div class="width-100phantram min-height-100phantram">
+            <div class="display-flex align-items-center margin-bottom-10px">
+                <div class="overflow-hidden border-radius-50phantram footer-logo">
+                    <img class="width-100-height-100" src="https://i.pinimg.com/originals/fb/54/84/fb54849f358f7825923f7d0517f3678f.png" alt="">
+                </div>
+                <div class="font-size-22px display-flex ">
+                    Marketween
+                </div>
+            </div>
+            <div class="width-400px font-size-18px">
+                Sàn giao dịch sản phẩm nội dung kỹ thuật số, mua bán và khám phá các tác phẩm nghệ thuật từ các nhà sáng tạo nội dung.
+            </div>
+        </div>
+
+        <div class="display-flex justify-content-space-between width-100phantram padding-right-50px">
+            <div class="font-size-22px">
+                <div class="margin-bottom-10px padding-top-10px">
+                    Tạo
+                </div>
+                <div class="font-size-18px">
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Bộ sưu tập
+                    </div>
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Sản phẩm
+                    </div>
+                </div>
+            </div>
+            <div class="font-size-22px">
+                <div class="margin-bottom-10px padding-top-10px">
+                    Sàn giao dịch
+                </div>
+                <div class="font-size-18px">
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Bộ sưu tập mới
+                    </div>
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Trang cá nhân
+                    </div>
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Bán
+                    </div>
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Đăng nhập
+                    </div>
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Đăng ký
+                    </div>
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Đăng xuất
+                    </div>
+                </div>
+            </div>
+            <div class="font-size-22px">
+                <div class="margin-bottom-10px padding-top-10px">
+                    Khám phá
+                </div>
+                <div class="font-size-18px">
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Bộ sưu tập
+                    </div>
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Sản phẩm
+                    </div>
+                    <div class="margin-bottom-10px text-not-yet-hover">
+                        Người dùng
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="padding-bot-top-24px display-flex align-items-center justify-content-space-between text-not-yet-hover">
+        <div>
+            @2023 Marketween
+        </div>
+        <div class="the-a-footer">
+            <a href="" class="margin-right-at-rank-nhakinhdoanh text-not-yet-hover">
+                Chính sách bảo mật
+            </a>
+            <a href="" class="text-not-yet-hover">
+                Chính sách hoàn trả
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- ====================================================END FOOTER========================================================== -->
+
+<script src="/scrollingBanner.js"></script>
+<script src="/shoppingCart.js"></script>
+<script src="/notifications.js"></script>
+<script src="/menuUser.js"></script>
+
+</body>
+</html>
+

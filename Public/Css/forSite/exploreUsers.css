@@ -1,0 +1,244 @@
+:root{
+    --color-whiteF: #FFF;
+    --color-black: #000;
+    --color-time-chu_nho: #666666;
+    --color-information_information: rgba(217, 217, 217, 0.64);
+    --color-right_duythai: #BBBBBB;
+    --color-menu_ul_duythai: #CBC4C4;
+    --color-PIN_duythai: #C5C5C5;
+    --color-chu_duythai: #3E3E3E;
+    --color-bg-input: #F4F4F4;
+    --btn-white: white;
+    --color-search-input: #999999;
+    --cacloaiboder-radius-trung: 12px;
+    --font-style: normal;
+    --font-weight: 500;
+    --line-height: normal;
+    --background-boder: rgba(153, 153, 153, 0.66);
+    --text-red: red;
+    --text-green: green;
+    --cacloaiboder-radius-bordermini: 8px;
+    --cacloaiboder-radius-lon: 20px;
+    --bg-xam-btn: #D9D9D9;
+    --color-new: #333333;
+    --color-span: #F6F6F6;
+    --background-color-spnan: #5E17EB;
+    --color-item-duythai: rgba(22, 22, 26, 0.08);
+}
+
+  .container_duythai {
+    max-width: 96%;
+    margin: auto;
+  }
+  .item-wrapper_duythai {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  
+  }
+  .menu_ul_duythai{
+    width: 100%;
+    margin-bottom: 15px;
+    
+   }
+   .menu_duythai ul{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     
+   }
+   .menu_duythai li a:hover {
+    color: var(--color-black);
+    transition: all .3s;
+   }
+   .menu_duythai .menu-li_duythai a{
+     color: var(--color-time-chu_nho);
+     text-decoration: none;
+     font-size: 24px;
+     font-style: var(--font-style);
+     font-weight: var(--font-weight);
+     line-height: var(--line-height);
+     display: block;
+     padding: 12px 0px;
+     margin-right: 10px;
+   }
+   /*======================SEARCH===================*/
+   .search_duythai {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .search_input_duythai {
+    position: relative;
+    flex: 1;
+    padding: 2px 25px;
+    border: 1px solid var(--color-bg-input);
+    border-radius: 10px;
+    background: var(--color-bg-input);
+
+
+  }
+  
+  .search_input_duythai input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  .search_input_duythai input[type="search"]::placeholder {
+    color: var(--color-search-input);
+    font-size: 15px;
+    font-weight: 400;
+    font-style: var(--font-style);
+    line-height: var(--line-height);
+  }
+  .search_input_duythai i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-time-chu_nho);
+    font-size: 18px;
+  }
+  /*==============================THE AND====================*/
+  /*==============================RIGHT======================*/
+  .right_duythai{
+    display: flex;
+    width: 154px;
+    height: 40px;
+    background-color: var(--color-bg-input);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 2px;
+    cursor: pointer;
+  }
+  .theodoi_duythai{
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: 400;
+    line-height: var(--line-height);
+    color: var(--color-black);
+    margin-right: 5px;
+  }
+  .right_duythai i{
+    font-size: 23px;
+  
+  }
+  /*==============================THE AND======================*/
+  .item_duythai {
+    height: 252px;
+    /* margin-right: 16px;
+    margin-bottom: 19px; */
+    background-color: var(--color-whiteF);
+    border-radius: 12px;
+    background: transparent;
+    border: 1px solid var(--color-item-duythai);
+    transition: all 0.2s ease;
+  }
+  
+  .item_duythai:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    cursor: pointer;
+    
+  }
+  .item_duythai:not(:hover){
+    transform: translateY(0);
+  }
+  
+  .item-img_duythai {
+    overflow: hidden;
+    border-radius: 12px;
+    /* margin: 7.8px; */
+    /* padding: 5px; */
+    padding-top: 7px;
+    
+  }
+  
+  .item-img_duythai img {
+    display: block;
+    width: 100%;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+  }
+  .item-details_duythai {
+    padding: 5px;
+  }
+  .item-details_duythai img{
+    border-radius: 50%;
+  }
+
+  
+  .item-author_duythai {
+    display: flex;
+    align-items: center;
+    
+  }
+  .item-author_duythai img{ 
+    bottom: 84px;
+    left: 24px;
+    width: 60px;
+    height: 60px;
+  }
+  .username_duythai {
+    color: var(--color-black);
+    font-size: 16px;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+    padding-top: 30px;
+    margin-bottom: 5px;
+  }
+  .follow_duythai{
+   font-size: 14px;
+   font-style: var(--font-style);
+   font-weight: var(--font-weight);
+   line-height: var(--line-height);
+   color: var(--color-time-chu_nho);
+  }
+  
+  .follow-wrapper_duythai {
+    top: 75%;
+    right: 20px;
+  }
+  
+  .follow {
+    background-color: var(--color-black);
+    color: var(--color-whiteF);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-style: var(--font-style);
+    font-weight: var(--font-weight);
+    line-height: var(--line-height);
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .follow i{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    margin-right:10px;
+  }
+
+  .contaiuser-explore{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+  }

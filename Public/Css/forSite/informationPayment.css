@@ -1,0 +1,99 @@
+#logo-at-information-payment-page{
+    height: 38px; width: 38px;
+}
+
+.input-email-1n4-pay{
+    padding: 17px 20px;
+}
+
+.width-of-input-form-payment-information{
+    max-width: 391px;
+}
+
+.hinhtron-slide{
+    height: 12px; width: 12px; 
+    border-radius: 50%; 
+    background-color: #ffffff;
+}
+
+.top-5px{
+    top: 5px;
+}
+
+.infor-slide{
+    bottom: 100px;
+    left: 70px;
+}
+
+.bxs-error-circle{
+    color: red;
+}
+
+.bx-check{
+    color: white;
+    border-radius: 50%;
+    height: 14px; width: 14px;
+    background-color: var(--mau-chu-dao);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+    font-weight: 300px;
+}
+
+.box_bx_check{
+    color: white;
+    height: 14px; width: 14px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    /* background-color: green; */
+    font-size: 12px;
+    font-weight: 300px;
+}
+
+#box_maintain_email{
+    position: relative;
+}
+
+#box_maintain_name{
+    position: relative;
+}
+
+.border_color_brand{
+    border: 1px solid var(--mau-chu-dao);
+}
+
+.border_color_error{
+    border: 1px solid red;
+}
+
+#error_gmail_ip{
+    padding: 1px 5px;
+    background-color: rgb(246, 244, 244);
+    border-radius: 3px;
+    box-shadow: var(--boxshadow-for-cart);
+    position: relative;
+    display: none;
+}
+
+#err_gmailip{
+    display: none;
+}
+
+#error_name_ip{
+    padding: 1px 5px;
+    background-color: rgb(246, 244, 244);
+    border-radius: 3px;
+    box-shadow: var(--boxshadow-for-cart);
+    position: relative;
+    display: none;
+}
+
+#err_nameip{
+    display: none;
+}
+
+.button-disabled {
+    background-color: #cccccc;
+    color: #888888;
+    cursor: not-allowed; 
+    pointer-events: block; 
+}

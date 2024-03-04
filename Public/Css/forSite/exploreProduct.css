@@ -1,0 +1,322 @@
+/* #expoloreProduct-Page{
+    padding-top: 30px;
+} */
+
+.search-and-select-154{
+    display: flex; align-items: center;
+    flex-flow: row;
+}
+
+.search-154{
+    flex-grow: 1;
+    /* border-radius: 10px;
+    border: 1px solid black; */
+    width: 100%;
+    margin-right: 10px;
+    flex-shrink: 1;
+    display: flex; align-items: center;
+    height: max-content;
+    border-radius: 13px;
+    background: var(--color-bg-input);
+}
+
+.search-154 i{
+    padding: 12px 20px;
+}
+
+.search-154 input{
+    padding: 13px;
+    border: none; 
+    outline: none;
+    width: 100%;
+    padding-right: 20px;
+    border-radius: 16px;
+    background: var(--color-bg-input);
+}
+
+.dropdown-select-box145 {
+    position: relative;
+    width: max-content;
+    padding: 9px 20px;
+    border-radius: 13px;
+    /* border: 1px solid black;   */
+    cursor: pointer;
+    background: var(--color-bg-input);
+}
+  
+.dropdown-select-box145-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: var(--color-bg-input);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 13px;
+    min-width: 250px;
+    right: 0px;
+
+}
+  
+.dropdown-select-box145-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 16px;
+}
+
+.dropdown-select-box145-content a:hover{
+    background: #c1c1c150;
+}
+  
+.dropdown-select-box145-display-flex{
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.dropdown-select-box145-display-flex i {
+    font-size: 25px;
+}
+
+.dropdown-select-box145-display-flex-text{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+
+
+/* ============================== */
+
+.bar-and-items-products-154{
+    display: flex;
+    margin-top: 24px;
+}
+
+.hop-box-bar-left{
+    position: sticky;
+    margin-top: 12px;
+    margin-right: 16px;
+    margin-bottom: 0px;
+    height: 100vh;
+    max-width: 100%;
+    min-width: 376px;
+    border: 1px solid rgba(22, 22, 26, 0.08);
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.border-bottom-solid-bar-left{
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(22, 22, 26, 0.1);
+    margin-bottom: 20px;
+}
+
+.hop-box-bar-left-padding{
+    padding: 16px;
+}
+
+.titile-box-left-bar{
+    font-size: 20px; font-weight: 500; font-family: inherit;
+    margin-bottom: 18px;
+}
+
+.the-a-box-left-bar{
+    padding: 14px 18px;
+    border-radius: 16px;
+    display: block;
+    width: max-content;
+    margin-right: 10px;
+}
+
+.flex-box-left-bar-the-a{
+    display: flex; flex-wrap: wrap; align-items: center; row-gap: 10px;
+}
+
+.flex-box-left-bar-the-input{
+    display: flex; flex-wrap: wrap; align-items: center;
+    flex-flow: row;
+}
+
+.input-box-left-bar{
+    padding: 16px 18px;
+    background-color: none;
+    border-radius: 16px;
+    width: max-content;
+    /* margin-right: 10px; */
+    outline: none;
+    border: none;
+    background-color: rgba(22, 22, 26, 0.04);
+    backdrop-filter: blur(40px);
+    border: 1px solid transparent;
+    transition: all 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.btn-tim-price{
+    padding: 13px 18px;
+    margin-left: 10px;
+}
+
+.click-tim-btn-left-bar:hover{
+    background-color: rgba(22, 22, 26, 0.107);
+}
+
+.padding-xamn-nen{
+    background-color: rgba(22, 22, 26, 0.04);
+    color: black; font-weight: 500;
+}
+
+.padding-xamn-nen:hover{
+    background-color: rgba(22, 22, 26, 0.043);
+}
+
+.padding-den-nen{
+    background-color: black; color: white; font-weight: 500;
+}
+
+.huy-bottom-border{
+    border-width: 0px;
+}
+
+
+/* --------------------- */
+
+.list-items-dantrang{
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(22, 22, 26);
+    display: flex;
+    width: 100%;
+}
+
+.dantrangmoi-container-pr{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    width: 100%;
+    padding-top: 10px;
+    height:100vh;
+    overflow: auto;
+    align-content: start;
+
+}
+
+.dantrangmoi-container-pr::-webkit-scrollbar {
+    display: none;
+}
+
+.dantrangmoi-container-pr {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.items-pr-tang-thuong-154{
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    /* margin-right: 10px; */
+    margin-bottom: 14px;
+    height: max-content;
+    width: max-content;
+
+}
+
+.items-pr-154-t2-img{
+    border-radius: 12px; overflow: hidden;
+    width: 228.75px;
+    height: 228.75px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.box-add-to-cart-this-pro{
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    width: 100%;
+    display: none;
+}
+
+.btn-buy-now-this-pro{
+    font-weight: 400;
+    background-color: black; 
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin-right: 10px
+}
+
+.btn-add-cart {
+    display: flex;
+    justify-content: center; align-items: center;
+    background-color: black; 
+    padding: 12px 12px;
+    border-radius: 10px;
+}
+
+.btn-add-cart .bx-plus{
+    color: white;
+    font-size: 25px;
+}
+
+.items-pr-154-t2-img img{
+    width: 100%; height: 100%;
+}
+
+.items-pr-154-t2-text{
+    padding: 0px 8px;
+}
+
+.items-pr-154-t2-text-name{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.items-pr-154-t2-text-price{
+    font-size: 14px;
+    color: rgba(22, 22, 26, 0.6);
+    margin-top: 4px;
+}
+
+.items-pr-154-t1 {
+    border: 3px solid rgba(22, 22, 26, 0);
+    border-radius: 16px;
+}
+
+.items-pr-154-t2{
+    padding: 8px;
+    display: block;
+    background: transparent;
+    border: 1px solid rgba(22, 22, 26, 0.08);
+    border-radius: 16px;
+}
+
+.items-pr-154:hover {
+    transition: all 0.2s ease;
+    transform: translateY(-3px);
+    cursor: pointer;
+
+}
+
+.items-pr-154:hover .items-pr-154-t1{
+    border: 3px solid rgba(22, 22, 26, 0.08);
+}
+
+.items-pr-154:hover .items-pr-154-t2{
+    border: 1px solid rgba(22, 22, 26, 0);
+}
+
+.items-pr-154:hover .box-add-to-cart-this-pro{
+    display: flex;
+}
+
+.btn-add-cart .bxs-edit-alt{
+    color: white;
+    font-size: 25px;
+}

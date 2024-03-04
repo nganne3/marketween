@@ -1,0 +1,191 @@
+/* =======================================BTN ABSOLUTE===================================== */
+
+@keyframes sonic {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+#attendance-everyday{
+    position: fixed;
+    z-index: 10;
+    top: 80vh;
+    right: 25px;
+}
+
+.time-unlock-att{
+    height: 50px;   border-radius: 50px;
+    position: absolute; bottom: 13px; right: 10px;
+    width: 50px;
+}
+
+#timer-unlock-att{
+    color: white;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    display: none;
+}
+
+.attendance-user{
+    position: relative;
+    padding: 8px;
+    width: 60px; height: 60px; border-radius: 50%; overflow: hidden;
+    display: flex; justify-content: center; align-items: center;
+    background-color: aliceblue;
+    box-shadow: rgba(204, 204, 204, 0.5) 0px 0px 4;;
+}
+
+.attendance-central{
+    height: 100%; width: 100%; border-radius: 50%;
+    display: flex; justify-content: center; align-items: center;    
+}
+
+.attendance-central .bxs-calendar-check{
+    font-size: 30px;
+}
+
+.attendance-central .bx-history{
+    font-size: 40px;
+}
+
+.noti-not-check-red{
+    height: 13px; width: 13px; border-radius: 50%;
+    position: absolute;
+    right: 8px; top: 15px;
+
+}
+
+@keyframes shake {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+  100% { transform: translateY(0); }
+}
+
+.shake {
+  animation: shake 3s infinite;
+}
+
+#attendance-everyday::after {
+    content: "";
+    position: absolute;
+    top: -25%;
+    left: -27%;
+    height: 150%;
+    width: 150%;
+    background: radial-gradient(circle, #3811e664 0%, rgba(255,255,255,0) 100%);
+    animation: ripple 2s infinite;
+    border-radius: 50%;
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+/* =======================================END BTN ABSOLUTE===================================== */
+
+/* =======================================START WINDOW CHECK QUESTION================================== */
+
+#atttendance-windowns-check-question{
+    position: fixed; z-index: 12;
+    left: 80vh;
+    top: 15vh;
+    display: none;
+
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: both;
+    animation-duration: 300ms;
+    animation-name: sonic;
+}
+
+.central-atttendance-windowns-check-question{
+    max-width: 490px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    height: 460px;
+}
+
+.central-atttendance-windowns-check-question-img{
+    border-radius: 20px;
+    width: 400px; height: 400px;
+}
+
+.central-atttendance-windowns-check-question-inf{
+    position: absolute;
+    padding-top: 50px;
+    height: 400px;
+    bottom: 0px;
+    color: white;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(to bottom, rgba(26, 26, 26, 0.091) 10%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100%, black 100%);
+    display: flex; align-items: end;
+    justify-content: center;
+}
+
+#btn-checknow{
+    width: 90%;
+    /* background-color: white; */
+    padding: 13px 0px;
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#btn-tubo{
+    width: 90%;
+    /* background-color: white; */
+    border: 1px solid white;
+    color: white;
+    padding: 13px 0px;
+    border-radius: 12px;
+    margin: auto;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.atttendance-windowns-check-question-inf-central{
+    width: 100%;
+}
+
+/* =======================================END WINDOW CHECK QUESTION================================== */
+
+/* =======================================START WINDOW CHECK DONE================================== */
+
+#atttendance-windowns-check-done{
+    position: fixed; z-index: 20;
+    left: 80vh;
+    top: 15vh;
+    display: none;
+
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: both;
+    animation-duration: 300ms;
+    animation-name: sonic;
+}   
+
+.quantity-coins-get{
+    color: yellow;
+}
+
+#atttendance-windowns-check-done .central-atttendance-windowns-check-question-inf{
+    height: 300px;
+}
+
+#btn-checkdone{
+    width: 90%;
+    padding: 13px 0px;
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/* =======================================END WINDOW CHECK DONE================================== */

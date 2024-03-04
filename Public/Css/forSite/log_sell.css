@@ -1,0 +1,42 @@
+
+.padding_log_my{
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid rgba(22, 22, 26, 0.08);
+}
+
+.flex_log_box{
+    display: flex; align-items: center; 
+}
+
+.img_log_box{
+    height: 100px;
+    width: 100px;
+    min-height: 100px;
+    min-width: 100px;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.img_log_box img {
+    height: 100%; width: 100%;
+}
+
+.box_info_log{
+    width: 100%;
+    margin-right: 20px;
+}
+
+.box_time_log{
+    text-align: right;
+    max-width: 130px;
+    width: 130px;
+    min-width: 130px;
+}
+
+.name_log_done_sell{
+    font-size: 20px;
+    font-weight: 500;
+}
+

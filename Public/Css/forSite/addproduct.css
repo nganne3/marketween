@@ -1,0 +1,122 @@
+
+  #containerp-add-product{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #container-child{
+    margin-top: 100px;
+    width: 50%;
+    margin-bottom: 100px;
+  }
+
+  #addproduct-des{
+    margin-bottom: 100px;
+    font-size: 20px;
+  }
+
+  .form-text-1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  .form-text-2{
+    font-size: 20px;
+    color: #969696;
+  }
+  #addproduct-form-file,.addproduct-form-input,.addproduct-form-select{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .addproduct-form-input input{
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    padding: 20px 20px;
+    outline: none;
+  }
+
+  #addproduct-form-btn button{
+    width: 100%;
+    padding: 20px;
+    background-color: #5E17EB;
+    border-radius: 12px;
+    border: none;
+  }
+  #addproduct-form-btn button span{
+    color:white;
+    font-weight: bold;
+  }
+
+  #add-form-file-box{
+    border: 1px dashed black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+  }
+
+  #add-form-file-box-btn button{
+    width: 170px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: gainsboro;
+  }
+  #add-form-file-box-btn button span{
+    font-size: 15px;
+    font-weight: bold;
+  } 
+
+  #addproduct-form{
+    height: max-content;
+  }
+
+  .addproduct-form-select select{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(247, 247, 247);
+    font-weight: bold;
+    padding: 20px 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 20px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .addproduct-form-select {
+    position: relative;
+  }
+
+  .addproduct-form-select i.bx-chevron-down{
+    position: absolute;
+    font-size: 26px;
+    bottom: 12px;
+    right: 20px;
+  }
+
+  .m-pto-box-featu{
+    width: 257px;
+    height: 257px;
+    border-radius: 10px;
+    border: solid 0.8px grey;
+  }
+
+  .box-x-right{
+    width: 100%;
+    display: flex; justify-content: right;
+    margin-bottom: 20px;
+
+  }
+
+  .box-x-right i{
+    margin-right:130px;
+    background-color: #e4e4e4d0;
+  }

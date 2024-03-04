@@ -1,0 +1,25 @@
+@media (max-width: 430px){
+    .central-header-QR{
+        padding: 0 20px;
+    }
+    .back-page{
+        padding: 0 20px;
+    }
+    .padding-le{
+        padding: 0 20px;
+        width: 100%;
+    }
+    .qr-and-product {
+        display: block;
+    }
+
+   .your-order-padding{
+    margin-top: 50px;
+    width: 90%;
+   }
+
+  #list-product-at-order{
+    width: 100%;
+  }
+ 
+ }

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- =========================BOX ICON============================ -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- =========================GOOGLE FONT============================ -->
+    <link rel="stylesheet" href="css/config.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+
+    <div id="container">
+        <div id="container-child">
+          
+          <div id="config-title">
+            <span style="font-size: 40px; font-weight: bold">Cài đặt cấu hình</span>
+          </div>
+
+          <div id="config-article">
+            <div id="config-article-1">
+              <button onclick="hoso()"><span id="hoso">Hồ sơ</span></button>
+              <button onclick="taikhoan()">
+                <span id="taikhoan">Tài khoản</span>
+              </button>
+            </div>
+            <div id="config-article-2">
+              <div id="profile">
+                <img src="img/7.png" alt="" />
+              </div>
+
+              <div id="infor">
+                <div class="infor-child">
+                  <label for=""><span>Tên người dùng</span></label>
+                  <input type="text" name="" id="" value="       JohanJs" />
+                </div>
+                <div class="infor-child">
+                  <label for=""><span>Tiểu sử</span></label>
+                  <input type="text" placeholder="Hãy thử kể về bản thân của bạn">
+                </div>
+                <div id="infor-btn">
+                  <button onclick="popup(1)"><span>Lưu thiết lập</span></button>
+                </div>
+              </div>       
+            </div>
+            <div id="config-article-3">
+
+                <div id="config-article-3-title">
+                    <span style="font-size: 24px; font-weight: bold">E-mail đăng nhập</span>
+                </div>
+
+                <div id="config-article-3-des">
+                    <span style="font-size: 20px; font-weight: bold">
+                      Chúng tôi sẽ sử dụng email này cho các hoạt động chung như nhận
+                      sản phẩm sau khi giao dịch, nhận thông báo từ thị trường, và
+                      nhiều hoạt động khác.
+                    </span>
+                </div>
+
+                <div id="config-article-3-input">
+                    <input type="text" value="      tanpvps28473@gmail.com" />
+                </div>
+
+                <div id="config-article-3-btn-1">
+                    <button onclick="popup(2)"><span>Lưu thiết lập</span></button>
+                </div>
+
+                <div id="arlert">
+
+                  <div id="alert-title">
+                      <span style="font-size: 24px; font-weight: bold">Khu vực nguy hiểm</span>
+                  </div>
+
+                  <div id="alert-des">
+                      <span style="font-size: 20px; font-weight: bold"
+                        >Một khi bạn xóa tài khoản mọi dữ liệu thông tin liên quan đều
+                        sẽ biến mất, và không thể khôi phục. Xin hãy chắc chắn.
+                      </span>
+                  </div>
+
+                </div>
+
+                <div id="config-article-3-btn-2">
+                  <button onclick="popup(3)"><span>Xóa tài khoản của tôi</span></button>
+                </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="popup" id="popup1">
+      <div class="popup-child">
+        <div class="popup-icon">
+          <img src="img/8.png" width="81" height="77" alt="" />
+        </div>
+        <div class="popup-title"><span>Thành công</span></div>
+        <div class="popup-des">
+          <span>Hồ sơ của bạn đã được thành công. Các bản cập nhật giờ đây được hiển thị cho tất cả mọi người!</span>
+        </div>
+        <div class="popup-btn">
+          <button onclick="closepopup(1)"><span>Tiếp tục</span></button>
+          <button onclick="closepopup(1)"><span>Đóng</span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup2">
+        <div class="popup-child">
+          <div class="popup-icon">
+            <img src="img/8.png" width="81" height="77" alt="" />
+          </div>
+          <div class="popup-title"><span>Thành công</span></div>
+          <div class="popup-des">
+            <span>E-mail của bạn đã được thay đổi. Hãy dùng nó để đăng nhập vào lần tới cũng như tham gia các hoạt động của Marketween .</span>
+          </div>
+          <div class="popup-btn">
+            <button onclick="closepopup(2)"><span>Tiếp tục</span></button>
+            <button onclick="closepopup(2)"><span>Đóng</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup" id="popup3">
+        <div class="popup-child">
+          <div class="popup-title"><span>Bạn có chắc chắn không?</span></div>
+          <div class="popup-des">
+            <span>Khi xóa hồ sơ của mình, bạn sẽ ngừng nhận tất cả thông báo từ người bạn theo dõi, lịch sử giao dịch, và các dữ liệu liên quan.</span>
+          </div>
+          <div class="popup-btn">
+            <button onclick="closepopup(3)"><span>Tiếp tục</span></button>
+            <button onclick="closepopup(3)"><span>Đóng</span></button>
+          </div>
+        </div>
+      </div>
+
+    <!-- <script src="js/config.js"></script> -->
+  </body>
+</html>

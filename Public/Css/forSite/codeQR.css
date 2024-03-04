@@ -1,0 +1,69 @@
+#codeQR-page{
+    margin-bottom: 50px;
+}
+
+#header-of-codeQR{
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.central-header-QR{
+    padding-left: 158px; 
+    padding-right: 158px;
+    width: 100%;
+}
+
+.padding-le{
+    padding-left: 158px; 
+    padding-right: 158px;
+}
+
+.back-page a i.bx-chevron-left {
+    font-size: 24px;
+}
+
+.your-order{
+    padding-top: 100px
+}
+
+.your-order-padding{
+    padding: 32px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(22, 22, 26, 0.04);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px;
+}
+
+.hr-qrcode{
+    background: #C0B1B1;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 0.8px;
+}
+
+.qr-and-product{
+    column-gap: 51px;
+}
+
+.inf-order{
+    margin-bottom: 51px;
+}
+
+.pr-order-img{
+    width: 56px; height: 56px;
+}
+
+.QR-Image{
+    min-width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.in4-of-qrcode{
+    font-size: 18px;
+    font-weight: 600;
+}
+

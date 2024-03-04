@@ -1,0 +1,6 @@
+@media (max-width: 430px){
+   #container-child{
+    width: 100%;
+    padding: 0 20px;
+   }
+}

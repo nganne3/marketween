@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Quản lý Marketween - Tổng quan</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">   
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="/Public/Css/forAdmin/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="assets/images/logo_circle.png" />
+  </head>
+  <body>
+
+    <div class="container-scroller">
+      <!-- partial:partials/_navbar.html -->
+      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo" href="index.html"><img src="assets/images/logo_marketween.png" alt="logo"/></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="bx bx-menu"></span>
+          </button>
+          <div class="search-field d-none d-md-block">
+            <form class="d-flex align-items-center h-100" action="#">
+              <div class="input-group">
+                <div class="input-group-prepend bg-transparent">
+                  <i class="input-group-text border-0 bx bx-search"></i>
+                </div>
+                <input type="text" class="form-control bg-transparent border-0" placeholder="Tìm kiếm">
+              </div>
+            </form>
+          </div>
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item nav-profile dropdown">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="nav-profile-img">
+                  <img src="assets/images/faces/face1.jpg" alt="image">
+                  <span class="availability-status online"></span>
+                </div>
+                <div class="nav-profile-text">
+                  <p class="mb-1 text-black">Nguyễn Ngân</p>
+                </div>
+              </a>
+              <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="bx bx-arrow-to-right me-2 text-success"></i> Về trang chủ </a>
+                <a class="dropdown-item" href="#">
+                  <i class="bx bxs-cog me-2 text-secondary"></i> Cài đặt tài khoản </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  <i class="bx bx-log-out me-2 text-primary"></i> Đăng xuất </a>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="bx bx-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- partial -->
+
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <span class="menu-title">Tổng quan</span>
+                <i class='bx bxs-home menu-icon'></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="user.html">
+                <span class="menu-title">Tài khoản</span>
+                <i class='bx bxs-user menu-icon'></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category.html">
+                <span class="menu-title">Danh mục</span>
+                <i class='bx bxs-category menu-icon' ></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">
+                <span class="menu-title">Sản phẩm</span>
+                <i class='bx bxs-image-alt menu-icon'></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="collection.html">
+                <span class="menu-title">Bộ sưu tập</span>
+                <i class='bx bxs-folder menu-icon'></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comment.html">
+                <span class="menu-title">Bình luận</span>
+                <i class='bx bxs-comment menu-icon'></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="attendance.html">
+                <span class="menu-title">Nhật ký điểm danh</span>
+                <i class='bx bx-history menu-icon'></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+              <h3 class="page-title">
+                <span class="page-title-icon bg-gradient-primary text-white me-2">
+                  <i class='bx bxs-home'></i>
+                </span> Tổng quan
+              </h3>
+            </div>
+            <div class="row">
+              <div class="col-md-3 stretch-card grid-margin">
+                <div class="card bg-gradient-danger card-img-holder text-white">
+                  <div class="card-body">
+                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                    <h4 class="font-weight-normal mb-3">Tài khoản <i class="bx bxs-user mdi-24px float-right"></i>
+                    </h4>
+                    <h2 class="mb-5">12 459</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 stretch-card grid-margin">
+                <div class="card bg-gradient-danger card-img-holder text-white">
+                  <div class="card-body">
+                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                    <h4 class="font-weight-normal mb-3">Sản phẩm <i class="bx bxs-image-alt mdi-24px float-right"></i>
+                    </h4>
+                    <h2 class="mb-5">15 257</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 stretch-card grid-margin">
+                <div class="card bg-gradient-info card-img-holder text-white">
+                  <div class="card-body">
+                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                    <h4 class="font-weight-normal mb-3">Bộ sưu tập <i class="bx bxs-folder mdi-24px float-right"></i>
+                    </h4>
+                    <h2 class="mb-5">9 210</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 stretch-card grid-margin">
+                <div class="card bg-gradient-success card-img-holder text-white">
+                  <div class="card-body">
+                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                    <h4 class="font-weight-normal mb-3">Bình luận <i class="bx bxs-comment mdi-24px float-right"></i>
+                    </h4>
+                    <h2 class="mb-5">10 741</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Top Doanh Thu</h4>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th class="text-center"></th>
+                            <th> Tài khoản </th>
+                            <th> ID </th>
+                            <th class="text-end"> Doanh thu </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-danger">Top 1</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face1.jpg" class="me-2" alt="image"> Nguyễn Ngân
+                            </td>
+                            <td> #211 </td>
+                            <td class="text-end"> 54.113 Coins </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-warning">Top 2</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face2.jpg" class="me-2" alt="image"> Chi Man
+                            </td>
+                            <td> #98 </td>
+                            <td class="text-end"> 35.943 Coins </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-success">Top 3</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face3.jpg" class="me-2" alt="image"> Chí Mẫn
+                            </td>
+                            <td> #20 </td>
+                            <td class="text-end"> 33.550 Coins </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">4</td>
+                            <td>
+                              <img src="assets/images/faces/face4.jpg" class="me-2" alt="image"> Chí Mẫn
+                            </td>
+                            <td> #598 </td>
+                            <td class="text-end"> 30.398 Coins </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">5</td>
+                            <td>
+                              <img src="assets/images/faces/face5.jpg" class="me-2" alt="image"> Chí Mẫn
+                            </td>
+                            <td> #51 </td>
+                            <td class="text-end"> 29.944 Coins </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Top Coins</h4>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th class="text-center"></th>
+                            <th> Tài khoản </th>
+                            <th> ID </th>
+                            <th class="text-end"> Coins </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-danger">Top 1</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face1.jpg" class="me-2" alt="image"> Nguyen Ngan
+                            </td>
+                            <td> #211 </td>
+                            <td class="text-end"> 1.210 Coins </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-warning">Top 2</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face2.jpg" class="me-2" alt="image"> Chi Man
+                            </td>
+                            <td> #98 </td>
+                            <td class="text-end"> 1.130 Coins </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-success">Top 3</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face3.jpg" class="me-2" alt="image"> Chí Mẫn
+                            </td>
+                            <td> #20 </td>
+                            <td class="text-end"> 1.019 Coins </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">4</td>
+                            <td>
+                              <img src="assets/images/faces/face4.jpg" class="me-2" alt="image"> Chí Mẫn
+                            </td>
+                            <td> #598 </td>
+                            <td class="text-end"> 968 Coins </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">5</td>
+                            <td>
+                              <img src="assets/images/faces/face5.jpg" class="me-2" alt="image"> Chí Mẫn
+                            </td>
+                            <td> #51 </td>
+                            <td class="text-end"> 924 Coins </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Top nhà bán chạy</h4>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th class="text-center"></th>
+                            <th> Tài khoản </th>
+                            <th> ID </th>
+                            <th class="text-end"> Số sản phẩm </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-danger">Top 1</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face1.jpg" class="me-2" alt="image"> Nguyễn Ngân
+                            </td>
+                            <td> #211 </td>
+                            <td class="text-end"> 123 </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-warning">Top 2</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face2.jpg" class="me-2" alt="image"> Chi Man
+                            </td>
+                            <td> #98 </td>
+                            <td class="text-end"> 92 </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-success">Top 3</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face3.jpg" class="me-2" alt="image"> Chí Mẫn
+                            </td>
+                            <td> #20 </td>
+                            <td class="text-end"> 73 </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">4</td>
+                            <td>
+                              <img src="assets/images/faces/face4.jpg" class="me-2" alt="image"> Chí Mẫn
+                            </td>
+                            <td> #598 </td>
+                            <td class="text-end"> 62 </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">5</td>
+                            <td>
+                              <img src="assets/images/faces/face5.jpg" class="me-2" alt="image"> Chí Mẫn
+                            </td>
+                            <td> #51 </td>
+                            <td class="text-end"> 61</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Top được theo dõi nhiều nhất</h4>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th class="text-center"></th>
+                            <th> Bộ sưu tập </th>
+                            <th> ID </th>
+                            <th class="text-end"> Lượt theo dõi </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-danger">Top 1</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face1.jpg" class="me-2" alt="image"> CollectionOfJM
+                            </td>
+                            <td> #211 </td>
+                            <td class="text-end"> 1.210 </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-warning">Top 2</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face2.jpg" class="me-2" alt="image"> CollectionTH
+                            </td>
+                            <td> #98 </td>
+                            <td class="text-end"> 1.130 </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">
+                              <label class="badge badge-gradient-success">Top 3</label>
+                            </td>
+                            <td>
+                              <img src="assets/images/faces/face3.jpg" class="me-2" alt="image"> MyCo
+                            </td>
+                            <td> #20 </td>
+                            <td class="text-end"> 1.019 </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">4</td>
+                            <td>
+                              <img src="assets/images/faces/face4.jpg" class="me-2" alt="image"> HaLuHaLu
+                            </td>
+                            <td> #598 </td>
+                            <td class="text-end"> 968 </td>
+                          </tr>
+                          <tr>
+                            <td class="text-center">5</td>
+                            <td>
+                              <img src="assets/images/faces/face5.jpg" class="me-2" alt="image"> MimMim
+                            </td>
+                            <td> #51 </td>
+                            <td class="text-end"> 924 </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:partials/_footer.html -->
+          <footer class="footer row">
+            <div class="col-md-12 text-center">
+              <span class="text-muted">Copyright © Marketween 2023</span>
+            </div>
+            <div class="col-md-12 text-center">
+                <span>Designed by Marketween Team <span><img src="assets/images/logo_circle.png" height="30px" width="30px" alt="logo"></span></span>
+              </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      
+      <!-- page-body-wrapper ends -->
+    </div>
+
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="assets/js/dashboard.js"></script>
+    <script src="assets/js/todolist.js"></script>
+    <!-- End custom js for this page -->
+  </body>
+</html>

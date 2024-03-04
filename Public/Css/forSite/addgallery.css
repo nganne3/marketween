@@ -1,0 +1,148 @@
+
+#container-add-collec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 1800px;
+}
+
+#container-add-collec #container-child{
+  margin-top: 100px;
+  width: 50%;
+}
+
+#img-bieungu-image{
+  width: 100%;
+  max-height: 173px;
+  min-height: 173px;
+  border: dashed 1px grey;
+}
+
+.img-iconic-image{
+  width: 173px; height: 173px; border-radius: 12px; overflow: hidden;
+  border: dashed 1px grey;
+}
+
+.bx-photo-album{
+  font-size: 60px;
+  color: grey;
+  width: 100%;
+  height: 100%;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.img-iconic-image img{
+  width: 100%; height: 100%;
+}
+
+
+.addgallery-form-child{
+  display: flex;
+  flex-direction: column;
+}
+
+.addgallery-form-child input{
+  padding: 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  outline: none;
+}
+
+.addgallery-form-child-text{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.addgallery-form-child-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.action {
+  display: flex;
+}
+
+.action .img-iconic-image{
+  margin-right: 20px;
+}
+
+.addgallery-form-child-2 label span{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.img-iconic-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.img-iconic-form-title span{
+  font-size: 20px;
+}
+
+.img-iconic-form-btn span{
+  font-size: 15px;
+}
+
+.img-iconic-form-btn button{
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #EEEEEE;
+  border: none;
+}
+
+.img-iconic-form-btn button span{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#img-bieungu-btn button{
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #EEEEEE;
+  border: none;
+}
+
+#img-bieungu-btn button span{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#addgallery-form-btn button{
+  width: 100%;
+  padding: 18px;
+  background-color: #5E17EB;
+  border-radius: 12px;
+  border: none;
+}
+
+#addgallery-form-btn button span{
+  color:white;
+  font-weight: 600;
+}
+#img-bieungu-image i{
+  max-height: 173px;
+  min-height: 173px;
+}
+
+.red_text{
+  color: red;
+}
+
+.border-red{
+  border: 1px solid red;
+}
+
+.border-brand{
+  border: 1px solid var(--mau-chu-dao);
+}
+
+.margintop_span{
+  margin-top: 10px;
+  display: flex; align-items: center; column-gap: 5px;
+  display: none;
+}
